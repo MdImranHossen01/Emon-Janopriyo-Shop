@@ -42,7 +42,7 @@ export async function GET() {
     const settings = await GlobalSettings.findOne().sort({ updatedAt: -1 });
     if (!settings) {
       return NextResponse.json({
-        brandName: process.env.NEXT_PUBLIC_STORE_NAME || "GO Mart",
+        brandName: process.env.NEXT_PUBLIC_STORE_NAME || "Janopriyo Shop",
         contact: {
           email: "support@bddukan.shop",
           phone: "+8801234567890",
@@ -57,8 +57,8 @@ export async function GET() {
           tiktok: '',
           whatsapp: ''
         },
-        marqueeText: "Welcome to GO Mart!",
-        metaTitle: process.env.NEXT_PUBLIC_STORE_NAME || "GO Mart",
+        marqueeText: "Welcome to Janopriyo Shop!",
+        metaTitle: process.env.NEXT_PUBLIC_STORE_NAME || "Janopriyo Shop",
         metaDescription: "The most popular online shop in Bangladesh.",
         logoUrl: "/logo.webp",
         freeDeliveryThreshold: 0,

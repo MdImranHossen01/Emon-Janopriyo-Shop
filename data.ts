@@ -1,5 +1,5 @@
 export const productTitles = [
-  "GO Mart Wellness Pro",
+  "Janopriyo Shop Wellness Pro",
   "Urban Velocity Sneakers",
   "CloudWalk Elite Performance",
   "Stealth Neo-Classic Lows",

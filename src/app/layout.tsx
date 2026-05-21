@@ -189,8 +189,8 @@ export async function generateMetadata(): Promise<Metadata> {
     return {
       metadataBase: new URL(baseUrl),
       title: {
-        default: settings.metaTitle || settings.brandName || "GO Mart",
-        template: `%s | ${settings.brandName || "GO Mart"}`,
+        default: settings.metaTitle || settings.brandName || "Janopriyo Shop",
+        template: `%s | ${settings.brandName || "Janopriyo Shop"}`,
       },
       description: settings.metaDescription || settings.brandName || "Your ultimate destination for quality products.",
       manifest: '/manifest.json',
@@ -202,21 +202,21 @@ export async function generateMetadata(): Promise<Metadata> {
       appleWebApp: {
         capable: true,
         statusBarStyle: 'default',
-        title: settings.brandName || "GO Mart",
+        title: settings.brandName || "Janopriyo Shop",
       },
       formatDetection: {
         telephone: false,
       },
       openGraph: {
-        title: settings.metaTitle || settings.brandName || "GO Mart",
+        title: settings.metaTitle || settings.brandName || "Janopriyo Shop",
         description: settings.metaDescription || settings.brandName || "Your ultimate destination for quality products.",
         url: baseUrl,
-        siteName: settings.brandName || "GO Mart",
+        siteName: settings.brandName || "Janopriyo Shop",
         type: 'website',
       },
       twitter: {
         card: 'summary_large_image',
-        title: settings.metaTitle || settings.brandName || "GO Mart",
+        title: settings.metaTitle || settings.brandName || "Janopriyo Shop",
         description: settings.metaDescription || settings.brandName || "Your ultimate destination for quality products.",
       },
       verification: {
@@ -233,7 +233,7 @@ export async function generateMetadata(): Promise<Metadata> {
     };
   } catch (error) {
     return {
-      title: "GO Mart",
+      title: "Janopriyo Shop",
       description: "Your ultimate destination for quality products.",
     };
   }

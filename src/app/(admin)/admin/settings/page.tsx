@@ -269,7 +269,7 @@ export default function SettingsPage() {
                       <FormItem>
                         <FormLabel className="text-sm font-semibold text-gray-700">Brand Name</FormLabel>
                         <FormControl>
-                          <Input placeholder="GO Mart" {...field} className="h-12 rounded-xl bg-gray-50 border-2 border-gray-100 focus:border-primary transition-all" />
+                          <Input placeholder="Janopriyo Shop" {...field} className="h-12 rounded-xl bg-gray-50 border-2 border-gray-100 focus:border-primary transition-all" />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -321,7 +321,7 @@ export default function SettingsPage() {
                         <FormItem>
                           <FormLabel>Global Meta Title</FormLabel>
                           <FormControl>
-                            <Input placeholder="GO Mart | Best Ecommerce in BD" {...field} />
+                            <Input placeholder="Janopriyo Shop | Best Ecommerce in BD" {...field} />
                           </FormControl>
                           <FormDescription>Used as the primary browser title for the home page.</FormDescription>
                           <FormMessage />
@@ -335,7 +335,7 @@ export default function SettingsPage() {
                         <FormItem>
                           <FormLabel>Global Meta Description</FormLabel>
                           <FormControl>
-                            <Input placeholder="Shop the best products at GO Mart..." {...field} />
+                            <Input placeholder="Shop the best products at Janopriyo Shop..." {...field} />
                           </FormControl>
                           <FormDescription>Used for search engine snippets and social sharing.</FormDescription>
                           <FormMessage />
