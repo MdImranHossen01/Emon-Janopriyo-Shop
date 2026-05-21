@@ -151,7 +151,7 @@ export default async function FooterV1() {
 
         <div className="mt-12 flex flex-col items-center justify-between border-t py-6 sm:flex-row text-sm text-muted-foreground gap-4">
           <div className="flex flex-col sm:flex-row items-center gap-4">
-            <p>© {new Date().getFullYear()} {settings?.brandName || 'Janopriyo Shop'}. All rights reserved.</p>
+            <p>Â© {new Date().getFullYear()} {settings?.brandName || 'Janopriyo Shop'}. All rights reserved.</p>
           </div>
 
           <div className="flex items-center gap-6">

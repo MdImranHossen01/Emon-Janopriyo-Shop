@@ -113,7 +113,7 @@ export default function FooterV4() {
 
         {/* Elegant Legal Footer */}
         <div className="pt-16 border-t border-neutral-100 dark:border-neutral-900 flex flex-col md:flex-row items-center justify-between gap-8">
-           <p className="text-[10px] font-bold uppercase tracking-[0.3em] text-neutral-400">© {currentYear} Janopriyo Shop Boutique. All Essence Reserved.</p>
+           <p className="text-[10px] font-bold uppercase tracking-[0.3em] text-neutral-400">Â© {currentYear} Janopriyo Shop Boutique. All Essence Reserved.</p>
            <div className="flex gap-12 text-[10px] font-black uppercase tracking-[0.3em] text-neutral-400">
               <Link href="#" className="hover:text-primary transition-colors">Privacy</Link>
               <Link href="#" className="hover:text-primary transition-colors">Legal</Link>

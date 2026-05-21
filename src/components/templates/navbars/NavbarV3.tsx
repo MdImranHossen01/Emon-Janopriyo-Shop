@@ -59,7 +59,7 @@ export default function NavbarV3() {
 
   return (
     <>
-      {/* -- Mobile Top Bar (V1 Standard) — lg:hidden ---------------- */}
+      {/* -- Mobile Top Bar (V1 Standard) | lg:hidden ---------------- */}
       <MobileNavbar navItems={NAV_LINKS} categories={categories} />
 
       {/* -- Desktop Header ------------------------------------------- */}
@@ -67,7 +67,7 @@ export default function NavbarV3() {
       <div className="container mx-auto px-4 lg:px-12">
         {/* Top Minimal Bar */}
         <div className="py-2.5 text-center text-[9px] font-black tracking-[0.4em] uppercase text-neutral-400 border-b border-neutral-50/50">
-          Curating the Finest Selections • Worldwide Priority Shipping
+          Curating the Finest Selections | Worldwide Priority Shipping
         </div>
 
         {/* Main Nav */}

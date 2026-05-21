@@ -211,7 +211,7 @@ export default function LoginPage() {
                         <FormControl>
                           <div className="relative">
                             <Input
-                              placeholder="••••••••"
+                              placeholder="Enter your password"
                               type={showPassword ? "text" : "password"}
                               {...field}
                               disabled={isLoading || isGoogleLoading}

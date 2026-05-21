@@ -50,7 +50,7 @@ export default function BlogListingV1({
             href={`/blog/${featuredBlog.slug}`}
             className="group grid grid-cols-1 lg:grid-cols-2 overflow-hidden border bg-card hover:shadow-2xl hover:shadow-primary/5 transition-all duration-500 mb-16 border-border/50"
           >
-            {/* Left — Image */}
+            {/* Left | Image */}
             <div className="relative aspect-video lg:aspect-auto lg:h-full overflow-hidden bg-muted w-full">
               {featuredBlog.thumbnail ? (
                 <Image
@@ -69,7 +69,7 @@ export default function BlogListingV1({
               <div className="absolute inset-0 bg-primary/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
             </div>
 
-            {/* Right — Content */}
+            {/* Right | Content */}
             <div className="flex flex-col justify-center p-8 md:p-12 lg:p-16 space-y-6">
               <div className="flex items-center gap-2 text-[11px] font-bold text-muted-foreground uppercase tracking-widest">
                 <Calendar className="h-3.5 w-3.5 text-primary" />

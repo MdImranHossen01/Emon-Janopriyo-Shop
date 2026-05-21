@@ -119,7 +119,7 @@ export default function FooterV3() {
         {/* System Protocol Footer */}
         <div className="pt-10 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-6 text-[9px] font-black uppercase tracking-widest text-neutral-700">
            <div className="flex items-center gap-6">
-              <span>© {currentYear} CORE_MODULES</span>
+              <span>Â© {currentYear} CORE_MODULES</span>
               <span className="flex items-center gap-2"><ShieldCheck className="h-3 w-3 text-primary" /> SECURED_V4.1</span>
            </div>
            <div className="flex gap-8">

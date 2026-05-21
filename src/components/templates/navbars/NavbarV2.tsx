@@ -138,7 +138,7 @@ export default function NavbarV2() {
 
   return (
     <>
-      {/* -- Mobile Top Bar (V1 Standard) — lg:hidden ---------------- */}
+      {/* -- Mobile Top Bar (V1 Standard) | lg:hidden ---------------- */}
       <MobileNavbar navItems={navItems} categories={categories} />
 
       {/* -- Desktop Navbar ------------------------------------------- */}

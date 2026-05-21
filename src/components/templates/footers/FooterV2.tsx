@@ -186,7 +186,7 @@ export default function FooterV2() {
 
         {/* Bottom Bar - Reduced Padding & Smart Layout */}
         <div className="pt-6 border-t border-muted flex flex-col md:flex-row items-center justify-between gap-6 text-[10px] font-black uppercase tracking-[0.3em] text-muted-foreground">
-           <p className="text-center md:text-left">© {currentYear} Janopriyo Shop CO. ALL RIGHTS RESERVED.</p>
+           <p className="text-center md:text-left">Â© {currentYear} Janopriyo Shop CO. ALL RIGHTS RESERVED.</p>
            <div className="flex items-center gap-4">
              <DeveloperLogo className="opacity-50 grayscale hover:grayscale-0 hover:opacity-100 transition-all scale-90 md:scale-100" />
            </div>

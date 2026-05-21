@@ -94,7 +94,7 @@ export default function FooterV5() {
 
            <div className="flex flex-col items-end gap-6">
               <p className="text-[10px] font-black uppercase tracking-[0.3em] text-neutral-400 text-right">
-                 © {currentYear} ALL NARRATIVES PROTECTED. <br /> ESTABLISHED IN THE DIGITAL HORIZON.
+                 Â© {currentYear} ALL NARRATIVES PROTECTED. <br /> ESTABLISHED IN THE DIGITAL HORIZON.
               </p>
               <DeveloperLogo className="opacity-40 grayscale hover:grayscale-0 hover:opacity-100" />
            </div>
