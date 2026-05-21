@@ -16,8 +16,8 @@ const FAQ = mongoose.models.FAQ || mongoose.model('FAQ', FAQSchema);
 
 const faqs = [
   {
-    question: "What is Janopriyo Shop?",
-    answer: "Janopriyo Shop is a multi-version e-commerce platform designed to customize and deploy tailored online storefronts for various clients using modular UI component versions (V1 to V6).",
+    question: "What is GO Mart?",
+    answer: "GO Mart is a multi-version e-commerce platform designed to customize and deploy tailored online storefronts for various clients using modular UI component versions (V1 to V6).",
     order: 1,
     isActive: true
   },
@@ -34,8 +34,8 @@ const faqs = [
     isActive: true
   },
   {
-    question: "Does Janopriyo Shop support MongoDB?",
-    answer: "Yes, Janopriyo Shop uses MongoDB as its primary database to store product details, orders, client configurations, and global settings securely.",
+    question: "Does GO Mart support MongoDB?",
+    answer: "Yes, GO Mart uses MongoDB as its primary database to store product details, orders, client configurations, and global settings securely.",
     order: 4,
     isActive: true
   },

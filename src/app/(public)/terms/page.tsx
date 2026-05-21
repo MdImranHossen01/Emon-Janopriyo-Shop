@@ -1,12 +1,12 @@
-﻿import { Metadata } from 'next';
+import { Metadata } from 'next';
 import connectToDatabase from '@/lib/db';
 import GlobalSettings from '@/models/GlobalSettings';
 import { Separator } from '@/components/ui/separator';
 import { FileText, ShoppingBag, Truck, UserCheck, Scale, HelpCircle } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Terms & Conditions | Janopriyo Shop',
-  description: 'Understand the terms and conditions for shopping at Janopriyo Shop.',
+  title: 'Terms & Conditions | GO Mart',
+  description: 'Understand the terms and conditions for shopping at GO Mart.',
 };
 
 async function getSettings() {
@@ -15,7 +15,7 @@ async function getSettings() {
     const settings = await GlobalSettings.findOne().lean();
     if (!settings) {
       return {
-        brandName: "Janopriyo Shop",
+        brandName: "GO Mart",
         contact: {
           email: "support@bddukan.shop",
           phone: "+8801234567890"
@@ -26,7 +26,7 @@ async function getSettings() {
   } catch (error) {
     console.error('Error fetching settings for terms page:', error);
     return {
-      brandName: "Janopriyo Shop",
+      brandName: "GO Mart",
       contact: {
         email: "support@bddukan.shop",
         phone: "+8801234567890"
@@ -180,7 +180,7 @@ export default async function TermsPage() {
       <section className="bg-muted py-12 border-t mt-auto">
         <div className="container mx-auto px-4 md:px-0 text-center">
           <p className="text-sm text-muted-foreground">
-            � {new Date().getFullYear()} {brandName}. All rights reserved.
+            © {new Date().getFullYear()} {brandName}. All rights reserved.
             <br className="sm:hidden" />
             <span className="hidden sm:inline mx-2">|</span>
             Crafted for premium service.
@@ -190,4 +190,3 @@ export default async function TermsPage() {
     </div>
   );
 }
-

@@ -138,10 +138,10 @@ export default function NavbarV2() {
 
   return (
     <>
-      {/* -- Mobile Top Bar (V1 Standard) | lg:hidden ---------------- */}
+      {/* ── Mobile Top Bar (V1 Standard) — lg:hidden ──────────────── */}
       <MobileNavbar navItems={navItems} categories={categories} />
 
-      {/* -- Desktop Navbar ------------------------------------------- */}
+      {/* ── Desktop Navbar ─────────────────────────────────────────── */}
       <nav className={`
         hidden lg:block
         sticky top-0 left-0 right-0 z-50 w-full transition-all duration-500 font-jost
@@ -162,8 +162,8 @@ export default function NavbarV2() {
             />
 
             <Link href="/" className={`text-2xl md:text-3xl font-black tracking-tighter hover:scale-105 transition-all flex items-center gap-2 group ${!isHomePage || isScrolled ? 'text-foreground' : 'text-white'}`}>
-              <Image src="/logo.webp" width={40} height={40} alt="Janopriyo Shop Logo" className="object-contain" />
-              {settings?.brandName || 'Janopriyo Shop'}
+              <Image src="/logo.webp" width={40} height={40} alt="GO Mart Logo" className="object-contain" />
+              {settings?.brandName || 'GO Mart'}
             </Link>
           </div>
 
@@ -243,7 +243,7 @@ export default function NavbarV2() {
                     )}
                   </Button>
                   <div className="hidden xl:block absolute -bottom-8 right-0 whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
-                    <span className="text-[10px] font-black text-primary bg-primary/10 px-2 py-0.5 rounded-full">?{totalAmount.toLocaleString()}</span>
+                    <span className="text-[10px] font-black text-primary bg-primary/10 px-2 py-0.5 rounded-full">৳{totalAmount.toLocaleString()}</span>
                   </div>
                 </div>
               </CartDrawer>
@@ -272,7 +272,7 @@ export default function NavbarV2() {
                           {profile && (
                             <div className="mt-1.5 flex items-center gap-1.5 bg-primary/10 px-2 py-0.5 rounded-full w-fit border border-primary/20">
                               <Package className="h-3 w-3 text-primary" />
-                              <span className="text-[10px] font-bold text-primary">?{profile.walletBalance || 0} Tokens</span>
+                              <span className="text-[10px] font-bold text-primary">৳{profile.walletBalance || 0} Tokens</span>
                             </div>
                           )}
                         </div>

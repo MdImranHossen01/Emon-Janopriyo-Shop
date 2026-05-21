@@ -111,7 +111,7 @@ export default function LoginPage() {
           >
             <h2 className="text-4xl font-bold text-white mb-4 font-serif">Discover the Best Deals</h2>
             <p className="text-lg text-white/80 max-w-md">
-              Join Janopriyo Shop today and get access to exclusive offers, personalized recommendations, and a seamless shopping experience.
+              Join GO Mart today and get access to exclusive offers, personalized recommendations, and a seamless shopping experience.
             </p>
           </motion.div>
         </div>
@@ -211,7 +211,7 @@ export default function LoginPage() {
                         <FormControl>
                           <div className="relative">
                             <Input
-                              placeholder="Enter your password"
+                              placeholder="••••••••"
                               type={showPassword ? "text" : "password"}
                               {...field}
                               disabled={isLoading || isGoogleLoading}

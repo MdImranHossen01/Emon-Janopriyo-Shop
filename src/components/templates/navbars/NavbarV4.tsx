@@ -72,10 +72,10 @@ export default function NavbarV4() {
 
   return (
     <>
-      {/* -- Mobile Top Bar (V1 Standard) | lg:hidden ---------------- */}
+      {/* ── Mobile Top Bar (V1 Standard) — lg:hidden ──────────────── */}
       <MobileNavbar navItems={NAV_LINKS} categories={categories} />
 
-      {/* -- Desktop Navbar ------------------------------------------- */}
+      {/* ── Desktop Navbar ─────────────────────────────────────────── */}
       <nav className="hidden lg:block bg-[#0f1111] text-white border-b border-white/5 relative shadow-2xl">
       {/* Utility Top Bar */}
       <div className="bg-[#1a1c1c] text-neutral-400 py-2 border-b border-white/5">
@@ -101,7 +101,7 @@ export default function NavbarV4() {
 
         {/* Branding */}
         <Link href="/" className="text-2xl md:text-3xl font-black text-white shrink-0 tracking-tighter flex items-center gap-1">
-          Janopriyo Shop<span className="text-primary italic">SHOP</span>
+          GO Mart<span className="text-primary italic">SHOP</span>
         </Link>
 
         {/* Professional Search System */}
@@ -169,7 +169,7 @@ export default function NavbarV4() {
                         {profile && (
                           <div className="mt-1.5 flex items-center gap-1.5 bg-primary/10 px-2 py-0.5 rounded-full w-fit border border-primary/20">
                             <Package className="h-3 w-3 text-primary" />
-                            <span className="text-[10px] font-bold text-primary">?{profile.walletBalance || 0} Tokens</span>
+                            <span className="text-[10px] font-bold text-primary">৳{profile.walletBalance || 0} Tokens</span>
                           </div>
                         )}
                       </div>
@@ -254,7 +254,7 @@ export default function NavbarV4() {
               </div>
               <div className="hidden md:flex flex-col">
                  <span className="text-[9px] opacity-40 uppercase font-black tracking-widest leading-none mb-1">Your Bag</span>
-                 <span className="text-xs font-bold leading-none">?{totalAmount.toLocaleString()}</span>
+                 <span className="text-xs font-bold leading-none">৳{totalAmount.toLocaleString()}</span>
               </div>
             </div>
           </CartDrawer>

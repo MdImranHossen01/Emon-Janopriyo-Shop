@@ -1,5 +1,5 @@
 {
-  "name": "janopriyoshop",
+  "name": "gomart",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -53,7 +53,6 @@
     "embla-carousel-autoplay": "^8.6.0",
     "embla-carousel-react": "^8.6.0",
     "framer-motion": "^12.38.0",
-    "gcp-metadata": "^8.1.2",
     "googleapis": "^171.4.0",
     "gsap": "^3.14.2",
     "isomorphic-dompurify": "^3.3.0",

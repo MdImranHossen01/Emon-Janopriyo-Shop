@@ -1,4 +1,4 @@
-﻿'use client';
+'use client';
 
 import { useState, Suspense } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
@@ -159,7 +159,7 @@ function ResetPasswordForm() {
                 <div className="relative">
                   <FormControl>
                     <Input 
-                      placeholder="��������" 
+                      placeholder="••••••••" 
                       type={showPassword ? "text" : "password"} 
                       {...field} 
                       disabled={isLoading}
@@ -198,7 +198,7 @@ function ResetPasswordForm() {
                 <div className="relative">
                   <FormControl>
                     <Input 
-                      placeholder="��������" 
+                      placeholder="••••••••" 
                       type={showConfirmPassword ? "text" : "password"} 
                       {...field} 
                       disabled={isLoading}
@@ -292,11 +292,10 @@ export default function ResetPasswordPage() {
         </motion.div>
 
         <div className="mt-auto pt-6 text-center text-xs text-muted-foreground">
-          &copy; {new Date().getFullYear()} Janopriyo Shop. All rights reserved.
+          &copy; {new Date().getFullYear()} GO Mart. All rights reserved.
         </div>
       </div>
     </div>
   );
 }
-
 

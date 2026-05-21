@@ -23,11 +23,11 @@ export function LoyaltyBanner({ settings }: LoyaltyBannerProps) {
               Lifetime Rewards
             </div>
             <h2 className="text-2xl sm:text-3xl md:text-5xl font-black tracking-tight md:tracking-tighter leading-tight md:leading-none break-words">
-              JOIN THE <span className="text-primary">Janopriyo Shop</span> <br />
+              JOIN THE <span className="text-primary">GO Mart</span> <br />
               LOYALTY CLUB
             </h2>
             <p className="text-gray-400 text-lg max-w-md">
-              Unlock exclusive lifetime benefits. Spend <span className="text-white font-bold">?{threshold}</span> once and earn <span className="text-primary font-bold">{percentage}% tokens</span> on every future purchase!
+              Unlock exclusive lifetime benefits. Spend <span className="text-white font-bold">৳{threshold}</span> once and earn <span className="text-primary font-bold">{percentage}% tokens</span> on every future purchase!
             </p>
 
             <div className="flex flex-wrap gap-4">
@@ -50,7 +50,7 @@ export function LoyaltyBanner({ settings }: LoyaltyBannerProps) {
                 <Trophy className="h-6 w-6 text-primary" />
               </div>
               <h3 className="font-bold mb-1">Activate</h3>
-              <p className="text-xs text-gray-500">Buy products worth ?{threshold} in a single order.</p>
+              <p className="text-xs text-gray-500">Buy products worth ৳{threshold} in a single order.</p>
             </div>
 
             <div className="p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-primary/50 transition-colors group">

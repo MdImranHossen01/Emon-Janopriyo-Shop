@@ -59,15 +59,15 @@ export default function NavbarV3() {
 
   return (
     <>
-      {/* -- Mobile Top Bar (V1 Standard) | lg:hidden ---------------- */}
+      {/* ── Mobile Top Bar (V1 Standard) — lg:hidden ──────────────── */}
       <MobileNavbar navItems={NAV_LINKS} categories={categories} />
 
-      {/* -- Desktop Header ------------------------------------------- */}
+      {/* ── Desktop Header ─────────────────────────────────────────── */}
       <header className="hidden lg:block w-full bg-white border-b border-neutral-100 sticky top-0 z-50 animate-in fade-in duration-1000">
       <div className="container mx-auto px-4 lg:px-12">
         {/* Top Minimal Bar */}
         <div className="py-2.5 text-center text-[9px] font-black tracking-[0.4em] uppercase text-neutral-400 border-b border-neutral-50/50">
-          Curating the Finest Selections | Worldwide Priority Shipping
+          Curating the Finest Selections • Worldwide Priority Shipping
         </div>
 
         {/* Main Nav */}
@@ -94,7 +94,7 @@ export default function NavbarV3() {
           {/* Center: Logo */}
           <div className="absolute left-1/2 -translate-x-1/2">
             <Link href="/" className="text-4xl font-serif tracking-widest italic hover:opacity-60 transition-opacity">
-              Janopriyo Shop
+              GO Mart
             </Link>
           </div>
 
@@ -154,7 +154,7 @@ export default function NavbarV3() {
                         {profile && (
                           <div className="mt-1.5 flex items-center gap-1.5 bg-primary/10 px-2 py-0.5 rounded-full w-fit border border-primary/20">
                             <Package className="h-3 w-3 text-primary" />
-                            <span className="text-[10px] font-bold text-primary">?{profile.walletBalance || 0} Tokens</span>
+                            <span className="text-[10px] font-bold text-primary">৳{profile.walletBalance || 0} Tokens</span>
                           </div>
                         )}
                       </div>
