@@ -1,4 +1,4 @@
-'use client';
+ï»¿'use client';
 
 import { useState, Suspense } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
@@ -159,7 +159,7 @@ function ResetPasswordForm() {
                 <div className="relative">
                   <FormControl>
                     <Input 
-                      placeholder="••••••••" 
+                      placeholder="ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" 
                       type={showPassword ? "text" : "password"} 
                       {...field} 
                       disabled={isLoading}
@@ -198,7 +198,7 @@ function ResetPasswordForm() {
                 <div className="relative">
                   <FormControl>
                     <Input 
-                      placeholder="••••••••" 
+                      placeholder="ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" 
                       type={showConfirmPassword ? "text" : "password"} 
                       {...field} 
                       disabled={isLoading}
@@ -298,4 +298,5 @@ export default function ResetPasswordPage() {
     </div>
   );
 }
+
 

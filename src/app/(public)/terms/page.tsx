@@ -1,4 +1,4 @@
-import { Metadata } from 'next';
+ï»¿import { Metadata } from 'next';
 import connectToDatabase from '@/lib/db';
 import GlobalSettings from '@/models/GlobalSettings';
 import { Separator } from '@/components/ui/separator';
@@ -180,7 +180,7 @@ export default async function TermsPage() {
       <section className="bg-muted py-12 border-t mt-auto">
         <div className="container mx-auto px-4 md:px-0 text-center">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} {brandName}. All rights reserved.
+            ï¿½ {new Date().getFullYear()} {brandName}. All rights reserved.
             <br className="sm:hidden" />
             <span className="hidden sm:inline mx-2">|</span>
             Crafted for premium service.
@@ -190,3 +190,4 @@ export default async function TermsPage() {
     </div>
   );
 }
+
