@@ -299,6 +299,28 @@ export default function SuperConfigPage() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
+        {/* Super Admin Note */}
+        <Card className="lg:col-span-3 border-2 border-red-500/20 shadow-none overflow-hidden rounded-3xl bg-red-50/5">
+           <CardHeader className="bg-red-500/5 border-b">
+              <CardTitle className="flex items-center gap-2 text-red-700">
+                 <Database className="h-5 w-5" /> Super Admin Note (Credentials & Configurations)
+              </CardTitle>
+              <CardDescription className="text-red-600/70">Secure workspace for credentials and configurations. Saved in plain-text directly for super administrators.</CardDescription>
+           </CardHeader>
+           <CardContent className="p-6 space-y-4">
+              <div className="space-y-2">
+                <Label htmlFor="super-admin-note" className="font-bold text-xs text-red-700/80">Credentials Note</Label>
+                <textarea 
+                  id="super-admin-note" 
+                  value={settings?.superAdminNote || ''} 
+                  onChange={(e) => setSettings({...settings, superAdminNote: e.target.value})} 
+                  placeholder="Paste database credentials, API keys, and configurations here..."
+                  className="w-full h-64 rounded-xl border p-4 text-sm font-mono focus:ring-2 focus:ring-red-500 outline-none resize-y bg-white"
+                />
+              </div>
+           </CardContent>
+        </Card>
+
         {/* 1. System Identification */}
         <Card className="lg:col-span-3 border-2 border-primary/20 shadow-none overflow-hidden rounded-3xl">
             <CardHeader className="bg-primary/5 border-b p-5 md:px-6">

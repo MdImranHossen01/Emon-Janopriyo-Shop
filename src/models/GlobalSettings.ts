@@ -100,6 +100,7 @@ export interface IGlobalSettings extends Document {
     image: string;
     rating: number;
   }[];
+  superAdminNote?: string;
   createdAt: Date;
   updatedAt: Date;
 }
@@ -136,6 +137,7 @@ const GlobalSettingsSchema: Schema<IGlobalSettings> = new Schema(
       systemPrompt: { type: String, default: 'You are a helpful e-commerce assistant.' }
     },
     uiTemplates: { type: Object, default: {} },
+    superAdminNote: { type: String, default: '' },
     saasSubscription: {
       expiryDate: { type: Date, index: true },
       status: { type: String, enum: ['Active', 'Expired', 'Suspended'], default: 'Active' },
